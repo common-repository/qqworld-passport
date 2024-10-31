@@ -1,0 +1,1329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QQWorld Login\n"
+"Report-Msgid-Bugs-To: http://www.qqworld.org\n"
+"POT-Creation-Date: 2019-04-17 08:56+0800\n"
+"PO-Revision-Date: 2019-04-17 08:58+0800\n"
+"Last-Translator: Michael Wang <admin@qqworld.org>\n"
+"Language-Team: QQWorld <admin@qqworld.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: modules/alipay/init.php:43 modules/alipay/init.php:207
+#: modules/alipay/init.php:270
+msgid "Alipay"
+msgstr "支付宝"
+
+#: modules/alipay/init.php:49 modules/baidu/init.php:60
+#: modules/facebook/init.php:60 modules/google/init.php:60
+#: modules/line/init.php:45 modules/qq/init.php:58 modules/taobao/init.php:45
+#: modules/twitter/init.php:60 modules/wechat/init.php:165
+#: modules/weibo/init.php:55 modules/xiaomi/init.php:60
+msgid "Bind Now"
+msgstr "立即绑定"
+
+#: modules/alipay/init.php:53 modules/baidu/init.php:64
+#: modules/facebook/init.php:64 modules/google/init.php:64
+#: modules/line/init.php:49 modules/qq/init.php:62 modules/taobao/init.php:49
+#: modules/twitter/init.php:64 modules/wechat/init.php:167
+#: modules/weibo/init.php:59 modules/xiaomi/init.php:64
+msgid "Rebind"
+msgstr "重新绑定"
+
+#: modules/alipay/init.php:109
+msgid "Validation failed."
+msgstr ""
+
+#: modules/alipay/init.php:200
+msgid "Alipay Login"
+msgstr "支付宝登录"
+
+#: modules/alipay/init.php:207 modules/baidu/init.php:213
+#: modules/facebook/init.php:194 modules/google/init.php:212
+#: modules/line/init.php:157 modules/qq/init.php:263
+#: modules/taobao/init.php:157 modules/twitter/init.php:247
+#: modules/wechat/init.php:318 modules/weibo/init.php:215
+#: modules/xiaomi/init.php:212 qqworld-passport.php:415
+#: qqworld-passport.php:497
+msgid "Settings"
+msgstr "设置"
+
+#: modules/alipay/init.php:213 modules/baidu/init.php:219
+#: modules/facebook/init.php:200 modules/google/init.php:218
+#: modules/line/init.php:163 modules/qq/init.php:269
+#: modules/taobao/init.php:163 modules/twitter/init.php:253
+#: modules/wechat/init.php:324 modules/weibo/init.php:221
+#: modules/xiaomi/init.php:218
+msgid "Regular"
+msgstr "常规"
+
+#: modules/alipay/init.php:229 modules/alipay/init.php:232
+msgctxt "alipay"
+msgid "APP ID"
+msgstr "开发者应用ID"
+
+#: modules/alipay/init.php:233
+#, php-format
+msgctxt "alipay"
+msgid ""
+"Please enter APP ID, if you don't have, please <a href=\"%s\" target=\"_blank"
+"\">click here</a> to get one."
+msgstr ""
+"请输入开发者应用ID（APP ID），如果你没有，请<a href=\"%s\" target=\"_blank\">"
+"点击这里</a>获取。"
+
+#: modules/alipay/init.php:238 modules/qq/init.php:303
+msgctxt "qq"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: modules/alipay/init.php:242 modules/baidu/init.php:257
+#: modules/facebook/init.php:238 modules/google/init.php:256
+#: modules/qq/init.php:307 modules/twitter/init.php:291
+#: modules/weibo/init.php:259 modules/xiaomi/init.php:256
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=\"_blank\">click here</a> to create a website "
+"APP."
+msgstr "请 <a href=\"%s\" target=\"_blank\">单击这里</a> 创建一个网站应用。"
+
+#: modules/alipay/init.php:243 modules/baidu/init.php:259
+#: modules/facebook/init.php:240 modules/google/init.php:257
+#: modules/qq/init.php:308 modules/twitter/init.php:293
+#: modules/wechat/init.php:385 modules/weibo/init.php:260
+#: modules/xiaomi/init.php:257
+msgid "Return URL 404 error?"
+msgstr "回调地址报404错误？"
+
+#: modules/alipay/init.php:244 modules/baidu/init.php:260
+#: modules/facebook/init.php:241 modules/google/init.php:258
+#: modules/qq/init.php:309 modules/twitter/init.php:294
+#: modules/wechat/init.php:386 modules/weibo/init.php:261
+#: modules/xiaomi/init.php:258
+msgid "Your server must supports rewrite."
+msgstr "你的服务器必须支持Rewrite。"
+
+#: modules/alipay/init.php:245 modules/baidu/init.php:261
+#: modules/facebook/init.php:242 modules/google/init.php:259
+#: modules/qq/init.php:310 modules/twitter/init.php:295
+#: modules/wechat/init.php:387 modules/weibo/init.php:262
+#: modules/xiaomi/init.php:259
+msgid ""
+"In Wordpress admin page &gt; <strong>Settings</strong> &gt; "
+"<strong>Permalinks</strong>, do not select <strong>Plain</strong>."
+msgstr ""
+"在Wordpress管理后台 &gt; <strong>设置</strong> &gt; <strong>固定链接</"
+"strong> 中，不要选择 <strong>朴素</strong>。"
+
+#: modules/alipay/init.php:246 modules/baidu/init.php:262
+#: modules/facebook/init.php:243 modules/google/init.php:260
+#: modules/qq/init.php:311 modules/twitter/init.php:296
+#: modules/wechat/init.php:388 modules/weibo/init.php:263
+#: modules/xiaomi/init.php:260
+msgid "Do not disabled the REST API."
+msgstr "不能禁用REST API。"
+
+#: modules/alipay/init.php:251 modules/baidu/init.php:267
+#: modules/facebook/init.php:248 modules/google/init.php:265
+#: modules/line/init.php:197 modules/qq/init.php:316
+#: modules/taobao/init.php:197 modules/twitter/init.php:301
+#: modules/wechat/init.php:425 modules/weibo/init.php:268
+#: modules/xiaomi/init.php:265
+msgid "Hide Interface"
+msgstr "隐藏界面"
+
+#: modules/alipay/init.php:255 modules/baidu/init.php:271
+#: modules/facebook/init.php:252 modules/google/init.php:269
+#: modules/line/init.php:201 modules/qq/init.php:320
+#: modules/taobao/init.php:201 modules/twitter/init.php:305
+#: modules/wechat/init.php:429 modules/weibo/init.php:272
+#: modules/xiaomi/init.php:269
+msgid "Don't display login icon in login form."
+msgstr "登录页不显示登录图标。"
+
+#: modules/alipay/init.php:271
+msgid ""
+"Alipay (China) Network Technology Co., Ltd. is a leading third-party payment "
+"platform, committed to providing \"simple, safe, fast\" payment solutions. "
+"Pay the company from the beginning of 2004, the establishment has always "
+"been to \"trust\" as the core products and services. There's \"Alipay\" and "
+"\"Alipay wallet\" two independent brands. Since the second quarter of 2014 "
+"began to become the world's largest manufacturers of mobile payment."
+msgstr ""
+"支付宝（中国）网络技术有限公司是国内领先的第三方支付平台，致力于提供“简单、安"
+"全、快速”的支付解决方案。支付宝公司从2004年建立开始，始终以“信任”作为产品和服"
+"务的核心。旗下有“支付宝”与“支付宝钱包”两个独立品牌。自2014年第二季度开始成为"
+"当前全球最大的移动支付厂商。"
+
+#: modules/baidu/init.php:46 modules/baidu/init.php:213
+#: modules/baidu/init.php:286
+msgid "Baidu"
+msgstr "百度"
+
+#: modules/baidu/init.php:206
+msgid "Baidu Login"
+msgstr "百度登录"
+
+#: modules/baidu/init.php:235 modules/baidu/init.php:238
+msgctxt "baidu"
+msgid "API Key"
+msgstr "商户支付密钥 (API Key)"
+
+#: modules/baidu/init.php:239 modules/facebook/init.php:220
+#: modules/google/init.php:238 modules/twitter/init.php:273
+#: modules/xiaomi/init.php:238
+#, php-format
+msgid ""
+"Please enter API Key, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入API Key，如果你没有，请<a href=\"%s\" target=\"_blank\">点击这里</a>获"
+"取。"
+
+#: modules/baidu/init.php:244 modules/baidu/init.php:247
+msgctxt "baidu"
+msgid "Secret Key"
+msgstr "私有密钥（Secret Key）"
+
+#: modules/baidu/init.php:248 modules/facebook/init.php:229
+#: modules/google/init.php:247 modules/twitter/init.php:282
+#: modules/xiaomi/init.php:247
+#, php-format
+msgid ""
+"Please enter Secret Key, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入Secret Key，如果你没有，请<a href=\"%s\" target=\"_blank\">点击这里</a>"
+"获取。"
+
+#: modules/baidu/init.php:253
+msgctxt "baidu"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: modules/baidu/init.php:258 modules/facebook/init.php:239
+#: modules/twitter/init.php:292
+#, php-format
+msgid "And set the Return Url <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "并且在 <a href=\"%s\" target=\"_blank\">这里</a> 设置回调地址。"
+
+#: modules/baidu/init.php:287
+msgid ""
+"Baidu is an Internet company mainly engaged in search engine services, in "
+"January 1, 2000 by Li Yanhong, Xu Yong, two were founded in Beijing "
+"Zhongguancun. The name of the \"Baidu\" word from the Southern Song Dynasty "
+"poet Xin Qiji's \"green jade case\" a word: \"the public to find him "
+"thousands of Baidu, suddenly look back, that person is in the light of the "
+"place\", corporate logo Is a \"bear's paw\", from the \"hunter to bear palm "
+"to trace\" image."
+msgstr ""
+"百度公司是一家主要经营搜索引擎服务的互联网公司，于2000年1月1日由李彦宏、徐勇"
+"两人创立于北京中关村。名称中的“百度”二字源自中国南宋词人辛弃疾的《青玉案·元"
+"夕》的一句词：“众里寻他千百度，蓦然回首，那人却在，灯火阑珊处”，企业标志则是"
+"一个“熊掌”，来自于“猎人以熊掌来寻迹”的意象。"
+
+#: modules/facebook/init.php:46 modules/facebook/init.php:194
+#: modules/facebook/init.php:267
+msgid "Facebook"
+msgstr "脸书"
+
+#: modules/facebook/init.php:187
+msgid "Facebook Login"
+msgstr "脸书登录"
+
+#: modules/facebook/init.php:216 modules/facebook/init.php:219
+msgctxt "facebook"
+msgid "API Key"
+msgstr "商户支付密钥 (API Key)"
+
+#: modules/facebook/init.php:225 modules/facebook/init.php:228
+msgctxt "facebook"
+msgid "Secret Key"
+msgstr "私有密钥（Secret Key）"
+
+#: modules/facebook/init.php:234
+msgctxt "facebook"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: modules/facebook/init.php:268
+msgid ""
+"Facebook is a US social networking service website. Founded on February 4, "
+"2004, the company is headquartered in Paraty, Calif., and is the founder of "
+"Mark Zuckerberg."
+msgstr ""
+"Facebook是美国的一个社交网络服务网站 ，创立于2004年2月4日，总部位于美国加利福"
+"尼亚州帕拉阿图，主要创始人马克·扎克伯格。"
+
+#: modules/google/init.php:46 modules/google/init.php:212
+#: modules/google/init.php:284
+msgid "Google"
+msgstr "谷歌"
+
+#: modules/google/init.php:205
+msgid "Google Login"
+msgstr "谷歌登录"
+
+#: modules/google/init.php:234 modules/google/init.php:237
+msgctxt "google"
+msgid "API Key"
+msgstr "商户支付密钥 (API Key)"
+
+#: modules/google/init.php:243 modules/google/init.php:246
+msgctxt "google"
+msgid "Secret Key"
+msgstr "私有密钥（Secret Key）"
+
+#: modules/google/init.php:252
+msgctxt "google"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: modules/google/init.php:285
+msgid ""
+"Google Inc. is a multinational technology company from the United States. It "
+"is a subsidiary of Alphabet Inc., which develops and provides a large number "
+"of Internet-based products and services in the fields of Internet "
+"advertising, Internet search, cloud computing, etc. Its main profit comes "
+"from Advertising services such as AdWords."
+msgstr ""
+"Google有限公司是源自美国的跨国科技公司，为Alphabet Inc.的子公司，业务范围涵盖"
+"互联网广告、互联网搜索、云计算等领域，开发并提供大量基于互联网的产品与服务，"
+"其主要利润来自于AdWords等广告服务。"
+
+#: modules/line/init.php:39 modules/line/init.php:157 modules/line/init.php:216
+msgid "Line"
+msgstr "连我（Line）"
+
+#: modules/line/init.php:150
+msgid "Line Login"
+msgstr "连我（Line）登录"
+
+#: modules/line/init.php:179 modules/line/init.php:182
+msgctxt "line"
+msgid "App Key"
+msgstr "应用密钥（App Key）"
+
+#: modules/line/init.php:183 modules/taobao/init.php:183
+#: modules/weibo/init.php:241
+#, php-format
+msgid ""
+"Please enter App Key, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入APP Key<br />如果你还没有APP Key，<a href=\"%s\" target=\"_blank\">点击"
+"这里</a>获取。"
+
+#: modules/line/init.php:188 modules/line/init.php:191
+msgctxt "line"
+msgid "App Secret"
+msgstr "应用密码（App Secret）"
+
+#: modules/line/init.php:192 modules/taobao/init.php:192
+#: modules/weibo/init.php:250
+#, php-format
+msgid ""
+"Please enter App Secret, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入APP Secret<br />如果你还没有APP Secret，<a href=\"%s\" target=\"_blank"
+"\">点击这里</a>获取。"
+
+#: modules/line/init.php:217
+msgid ""
+"LINE, a comprehensive instant messaging software platform developed by Naver "
+"Group's company, was released in June 2011. Users can send messages and "
+"watch live broadcasts with other users over the Internet without additional "
+"charges, and can use the functions of shopping, mobile payment and news "
+"information."
+msgstr ""
+"LINE，是一个由Naver集团旗下连我株式会社所开发的即时通信软件综合平台，于2011年"
+"6月发表。用户间可以通过互联网在不额外增加费用情况下与其他用户发送信息及观看直"
+"播，并可透过连我使用购物、移动支付及获取新闻信息等功能。"
+
+#: modules/qq/init.php:46 modules/qq/init.php:263 modules/qq/init.php:335
+#: qqworld-passport.php:746
+msgid "Tencent QQ"
+msgstr "腾讯QQ"
+
+#: modules/qq/init.php:256
+msgid "QQ Login"
+msgstr "QQ登录"
+
+#: modules/qq/init.php:285 modules/qq/init.php:288
+msgid "APP ID"
+msgstr "应用唯一标识（APP ID）"
+
+#: modules/qq/init.php:289 modules/wechat/init.php:366
+#, php-format
+msgid ""
+"Please enter APP ID, if you don't have, please <a href=\"%s\" target=\"_blank"
+"\">click here</a> to get one."
+msgstr ""
+"请输入应用唯一标识（APP ID），如果你没有，请<a href=\"%s\" target=\"_blank\">"
+"点击这里</a>获取。"
+
+#: modules/qq/init.php:294 modules/qq/init.php:297
+msgid "APP Key"
+msgstr "密钥（APP Key）"
+
+#: modules/qq/init.php:298
+#, php-format
+msgid ""
+"Please enter APP Key, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入密钥（APP Key），如果你没有，请<a href=\"%s\" target=\"_blank\">点击这"
+"里</a>获取。"
+
+#: modules/qq/init.php:336
+msgid ""
+"Tencent QQ, Tencent in February 11, 1999 launched a multi-platform instant "
+"messaging software that supports text, voice and video chat, also comes with "
+"a file-sharing, network drives, email, games, tribal interests, and even a "
+"wide range of residential and commercial services platform for online "
+"shopping, renting and looking for work, and so on. Currently, Tencent QQ, "
+"mobile QQ instant messaging software, Chinese are the most widely used, both "
+"personal computers and mobile phones occupy Chinese IM market first."
+msgstr ""
+"腾讯QQ，是腾讯公司于1999年2月11日推出的一款的多平台即时通信软件，支持文字、语"
+"音和视频聊天，还附带有文件共享、网络硬盘、邮箱、游戏、兴趣部落，甚至是网购、"
+"租房与找工作等等广泛住商服务的平台。目前，腾讯QQ、手机QQ均为中国最多人使用的"
+"即时通信软件，均占据中国个人电脑和手机即时通信市场第一。"
+
+#: modules/taobao/init.php:39 modules/taobao/init.php:157
+#: modules/taobao/init.php:216
+msgid "Taobao"
+msgstr "淘宝"
+
+#: modules/taobao/init.php:150
+msgid "Taobao Login"
+msgstr ""
+
+#: modules/taobao/init.php:179 modules/taobao/init.php:182
+msgctxt "taobao"
+msgid "App Key"
+msgstr "应用密钥（App Key）"
+
+#: modules/taobao/init.php:188 modules/taobao/init.php:191
+msgctxt "taobao"
+msgid "App Secret"
+msgstr "应用密码（App Secret）"
+
+#: modules/taobao/init.php:217
+msgid ""
+"Taobao is the Asia-Pacific region a large network of retail, business "
+"district, by the Alibaba Group was founded in May 2003."
+msgstr "淘宝网是亚太地区较大的网络零售、商圈，由阿里巴巴集团在2003年5月创立。"
+
+#: modules/twitter/init.php:46 modules/twitter/init.php:247
+#: modules/twitter/init.php:320
+msgid "Twitter"
+msgstr "推特"
+
+#: modules/twitter/init.php:240
+msgid "Twitter Login"
+msgstr "推特登录"
+
+#: modules/twitter/init.php:269 modules/twitter/init.php:272
+msgctxt "twitter"
+msgid "API Key"
+msgstr "商户支付密钥 (API Key)"
+
+#: modules/twitter/init.php:278 modules/twitter/init.php:281
+msgctxt "twitter"
+msgid "Secret Key"
+msgstr "私有密钥（Secret Key）"
+
+#: modules/twitter/init.php:287
+msgctxt "twitter"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: modules/twitter/init.php:321
+msgid ""
+"Twitter is a website for American social networking and microblogging "
+"services. It is one of the ten most visited websites on the Internet. Is a "
+"typical application of microblogging."
+msgstr ""
+"推特是一家美国社交网络及微博客服务的网站，是全球互联网上访问量最大的十个网站"
+"之一。是微博客的典型应用。"
+
+#: modules/wechat/init.php:144 modules/wechat/init.php:318
+#: modules/wechat/init.php:444 qqworld-passport.php:750
+msgid "Wechat"
+msgstr "微信"
+
+#: modules/wechat/init.php:308
+msgid "Wechat Login"
+msgstr "微信登录"
+
+#: modules/wechat/init.php:340
+msgid "Mode"
+msgstr "模式"
+
+#: modules/wechat/init.php:344
+msgid ""
+"Server (Use this website as a login relay server, other client website via "
+"this server can use the same wechat public number oauth2 web login.)"
+msgstr ""
+"服务端（使用本站作为登录中继服务器，其他客户端网站通过这个服务器可以使用同一"
+"个微信公众号oauth2网站登录。）"
+
+#: modules/wechat/init.php:345
+msgid "Client (Get wechat Oauth2 login via relay server.)"
+msgstr "客户端（使用中继服务器进行微信公众号Oauth2网页登录）"
+
+#: modules/wechat/init.php:347
+#, php-format
+msgid ""
+"You need install the Wechat Extends of <a href=\"%s\" target=\"_blank"
+"\">QQWorld Synchronizer</a> to use client login."
+msgstr ""
+"你需要安装<a href=\"%s\" target=\"_blank\">QQWorld 同步器</a>使用客户端登录。"
+
+#: modules/wechat/init.php:348
+#, php-format
+msgid ""
+"QQWorld Synchronizer has been removed, please use <a href=\"%s\" target="
+"\"_blank\">QQWorld Operating Officer</a>."
+msgstr ""
+"QQWorld同步器已下架，请使用 <a href=\"%s\" target=\"_blank\">QQWorld运营官</"
+"a>。"
+
+#: modules/wechat/init.php:353 modules/wechat/init.php:356
+msgctxt "wechat"
+msgid "Relay Server Home URL"
+msgstr "中继服务器首页URL"
+
+#: modules/wechat/init.php:357
+msgid ""
+"Please enter relay server home URL, this website will get oauth2 web login "
+"via it."
+msgstr "请输入中继服务器首页URL，本站将通过其进行oauth2网页登录。"
+
+#: modules/wechat/init.php:362 modules/wechat/init.php:365
+msgctxt "wechat"
+msgid "APP ID"
+msgstr "身份标识(APP ID)"
+
+#: modules/wechat/init.php:371 modules/wechat/init.php:374
+msgctxt "wechat"
+msgid "APP Secret"
+msgstr "身份密钥(APP Secret)"
+
+#: modules/wechat/init.php:375
+#, php-format
+msgid ""
+"Please enter APP Secret, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入APP Secret<br />如果你还没有APP Secret，请<a href=\"%s\" target="
+"\"_blank\">点击这里</a>获取。"
+
+#: modules/wechat/init.php:380
+msgid "Return URL"
+msgstr "回调地址"
+
+#: modules/wechat/init.php:384
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=\"_blank\">click here</a> to create a website "
+"APP.<br />And you need install the Wechat Extends of <a href=\"%s\" target="
+"\"_blank\">QQWorld Synchronizer</a> to use native login on PC."
+msgstr ""
+"请 <a href=\"%s\" target=\"_blank\">单击这里</a> 创建一个网站应用。<br />需要"
+"安装 <a href=\"%s\" target=\"_blank\">QQWorld同步器</a> 的微信扩展模块才能使"
+"用在PC端扫码登录。"
+
+#: modules/wechat/init.php:384 modules/wechat/init.php:402
+#, php-format
+msgid ""
+"QQWorld Synchronizer has been removed, please use <a href=\"%s\" target="
+"\"_blank\">QQWorld Operating Officer</a>, you can use this feature for free."
+msgstr ""
+"QQWorld同步器已下架，请使用 <a href=\"%s\" target=\"_blank\">QQWorld运营官</"
+"a>，可以免费使用此功能。"
+
+#: modules/wechat/init.php:394
+msgid "Desktop Login Mode"
+msgstr "桌面登录模式"
+
+#: modules/wechat/init.php:398
+msgid "Native (Need pay 300 RMB to open platform of weixin per year)"
+msgstr "原生（需每年支付300元人民币给微信开放平台）"
+
+#: modules/wechat/init.php:399
+msgid "Emulation (Only need a service number of wechat public platform)"
+msgstr "模拟（仅需要微信公众平台服务号）"
+
+#: modules/wechat/init.php:401
+#, php-format
+msgid ""
+"You need install the Wechat Extends of <a href=\"%s\" target=\"_blank"
+"\">QQWorld Synchronizer</a> to use native login on PC."
+msgstr ""
+"需要安装 <a href=\"%s\" target=\"_blank\">QQWorld同步器</a> 的微信扩展模块才"
+"能使用在PC端扫码登录。"
+
+#: modules/wechat/init.php:407 modules/wechat/init.php:410
+msgctxt "wechat"
+msgid "Open APP ID"
+msgstr "开放平台身份标识(APP ID)"
+
+#: modules/wechat/init.php:411
+#, php-format
+msgid ""
+"Please enter Open APP ID, if you don't have, please <a href=\"%s\" target="
+"\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入开放应用唯一标识（APP ID），如果你没有，请<a href=\"%s\" target="
+"\"_blank\">点击这里</a>获取。"
+
+#: modules/wechat/init.php:416 modules/wechat/init.php:419
+msgctxt "wechat"
+msgid "Open APP Secret"
+msgstr "开放平台身份密钥(APP Secret)"
+
+#: modules/wechat/init.php:420
+#, php-format
+msgid ""
+"Please enter Open APP Secret, if you don't have, please <a href=\"%s\" "
+"target=\"_blank\">click here</a> to get one."
+msgstr ""
+"请输入开放平台身份密钥（APP Secret）<br />如果你还没有APP Secret，请<a href="
+"\"%s\" target=\"_blank\">点击这里</a>获取。"
+
+#: modules/wechat/init.php:445
+msgid ""
+"Tencent Wechat on January 21, 2011 launched a support S60v3, S60v5, S40, "
+"BlackBerry, Windows Phone, Android and iOS platform instant messaging "
+"software, the face of smart phone users, by providing client friends to "
+"share text and pictures, there are maps, and supports packet and voice chat, "
+"video intercom function, broadcast (one to many) news, photo / video "
+"sharing, location sharing, exchange contact information, micro-channel pay, "
+"through financial, gaming and other services, and Feed share streaming "
+"content and location-based social plug-in \"shake,\" \"drift bottles.\" "
+"Micro-channel support multiple languages, as well as mobile phone data "
+"network. Users can take a picture and adding decorative art filters, "
+"subtitles, to send personal photo journal, and issued to the \"Timeline\" "
+"feature similar to Instagram. The user can select a contact in the contact "
+"list to / from the data backup and recovery services to protect users of "
+"cloud-based address book data."
+msgstr ""
+"微信是腾讯公司于2011年1月21日推出的一款支持S60v3、S60v5、S40、BlackBerry、"
+"Windows Phone、Android以及iOS平台的即时通讯软件，其面对智能手机用户，通过客户"
+"端提供好友分享文字与图片，也有贴图，并支持分组聊天和语音、视频对讲功能，广播"
+"（一对多）消息，照片/视频共享，位置共享，信息交流联系，微信支付、理财通，游戏"
+"等服务，并有共享流媒体内容的Feed和基于位置的社交插件“摇一摇”、“漂流瓶”。微信"
+"支持多种语言，以及手机数据网络。用户可拍摄照片和增加装饰艺术滤镜，字幕，发送"
+"到个人照片日志，并发出给“朋友圈”，功能类似Instagram。用户可在联系人列表中选择"
+"联系人，向/从基于云服务的数据备份和恢复保护用户通讯录数据​​。"
+
+#: modules/weibo/init.php:46 modules/weibo/init.php:215
+#: modules/weibo/init.php:287
+msgid "Sina Weibo"
+msgstr "新浪微博"
+
+#: modules/weibo/init.php:208
+msgid "Weibo Login"
+msgstr "微博登录"
+
+#: modules/weibo/init.php:237 modules/weibo/init.php:240
+msgctxt "weibo"
+msgid "App Key"
+msgstr "应用密钥（App Key）"
+
+#: modules/weibo/init.php:246
+msgctxt "weibo"
+msgid "App Secret"
+msgstr "应用密码（App Secret）"
+
+#: modules/weibo/init.php:249
+msgid "App Secret"
+msgstr "应用密码（App Secret）"
+
+#: modules/weibo/init.php:255
+msgctxt "weibo"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: modules/weibo/init.php:288
+msgid ""
+"Weibo was a launched by Sina, provision of micro-blog service site. Users "
+"can publish via the web, WAP pages, external programs and SMS, MMS and other "
+"information (280 characters) less than 140 characters, and can upload "
+"pictures and video links, instant sharing. Sina Weibo, a microblogging can "
+"be attached directly to the following comments can also send pictures "
+"directly inside a microblogging, video, Sina microblogging first to add "
+"these two functions."
+msgstr ""
+"新浪微博是一个由新浪网推出，提供微博客的服务网站。用户可以通过网页、WAP页面、"
+"外部程序和手机短信、彩信等发布140汉字（280字符）以内的信息，并可上传图片和链"
+"接视频，实现即时分享。新浪微博可以直接在一条微博下面附加评论，也可以直接在一"
+"条微博里面发送图片、视频，新浪微博最先添加这两点功能。"
+
+#: modules/xiaomi/init.php:46 modules/xiaomi/init.php:212
+#: modules/xiaomi/init.php:284
+msgid "Xiaomi"
+msgstr "小米"
+
+#: modules/xiaomi/init.php:205
+msgid "Xiaomi Login"
+msgstr "小米登录"
+
+#: modules/xiaomi/init.php:234 modules/xiaomi/init.php:237
+msgctxt "xiaomi"
+msgid "API Key"
+msgstr "商户支付密钥 (API Key)"
+
+#: modules/xiaomi/init.php:243 modules/xiaomi/init.php:246
+msgctxt "xiaomi"
+msgid "Secret Key"
+msgstr "私有密钥（Secret Key）"
+
+#: modules/xiaomi/init.php:252
+msgctxt "xiaomi"
+msgid "Return URL"
+msgstr "回调地址"
+
+#: modules/xiaomi/init.php:285
+msgid ""
+"Xiaomi technology is a Chinese company focused on intelligent hardware, "
+"smart home and software development enterprises, established on April 6, "
+"2010. Millet logo is a \"MI\" shape, is the \"Mobile Internet\" acronym, but "
+"also the word of the Chinese Pinyin \"mi\" capital, on behalf of millet is a "
+"mobile Internet company."
+msgstr ""
+"小米科技是中国一家专注于智能硬件、智能家居以及软件开发的企业，于2010年4月6日"
+"成立。 小米的标志是一个“MI”形，是“Mobile Internet”的缩写，同时也是米字的中文"
+"拼音“mi”的大写，代表小米是一家移动互联网公司。"
+
+#: qqworld-passport.php:51 qqworld-passport.php:642 qqworld-passport.php:661
+#: qqworld-passport.php:680 qqworld-passport.php:699 qqworld-passport.php:735
+#: qqworld-passport.php:743
+msgid "Michael Wang"
+msgstr "王晓骞"
+
+#: qqworld-passport.php:91
+msgid ""
+"Your have to register a new account and binded this social media account, "
+"then you can login via this social media account."
+msgstr ""
+"必须注册一个新帐户并绑定此社交媒体帐户，然后才可以通过此社交媒体帐户登录。"
+
+#: qqworld-passport.php:98
+msgid "Open ID"
+msgstr "开放平台身份标识"
+
+#: qqworld-passport.php:124 qqworld-passport.php:126
+msgid "QQWorld Synchronizer"
+msgstr "QQWorld同步器"
+
+#: qqworld-passport.php:125
+msgid "QQWorld Synchronizer is a component for QQWorld Passport."
+msgstr "QQWorld同步器是QQWorld通行证的组件。"
+
+#: qqworld-passport.php:129 qqworld-passport.php:136 qqworld-passport.php:143
+#: qqworld-passport.php:164
+msgctxt "extension"
+msgid "$ Buy"
+msgstr "￥ 购买"
+
+#: qqworld-passport.php:130 qqworld-passport.php:137 qqworld-passport.php:138
+msgid "Wechat Robot"
+msgstr "微信机器人"
+
+#: qqworld-passport.php:131
+msgid "Wechat Plus"
+msgstr "微信扩展"
+
+#: qqworld-passport.php:132
+msgid ""
+"Automatic login, display follow us button, login in pc exproler via scan QR "
+"Code."
+msgstr "自动登录，显示关注我们按钮，在PC浏览器下微信扫码登录。"
+
+#: qqworld-passport.php:133 qqworld-passport.php:140 qqworld-passport.php:147
+#: qqworld-passport.php:168
+msgid "Inactive"
+msgstr "未激活"
+
+#: qqworld-passport.php:139
+msgid "Make your website and WeChat public platform to interact."
+msgstr "让你的网站和微信公众平台进行互动。"
+
+#: qqworld-passport.php:144 qqworld-passport.php:145
+msgid "Sync Posts to Wechat"
+msgstr "同步文章到微信"
+
+#: qqworld-passport.php:146
+msgid "Automatically sync posts to your Wechat platform."
+msgstr "自动同步文章到微信公众平台。"
+
+#: qqworld-passport.php:159 qqworld-passport.php:161
+msgid "QQWorld Mobile"
+msgstr "QQWorld移动"
+
+#: qqworld-passport.php:160
+msgid ""
+"QQWorld Mobile is a component for QQWorld Passport, The featured such as "
+"Phone Nubmber Register and Sms Group Sends."
+msgstr ""
+"QQWorld移动是QQWorld通行证的一个组件，拥有诸如手机号注册和短信群发等功能。"
+
+#: qqworld-passport.php:165
+msgid "Phone Number Login"
+msgstr "手机号"
+
+#: qqworld-passport.php:166
+msgid "Phone Sign Up"
+msgstr "手机号注册"
+
+#: qqworld-passport.php:167
+msgid "Phone Number register & Sms Group Sends."
+msgstr "使用手机号注册和短信群发。"
+
+#: qqworld-passport.php:179
+msgid "Social Media Accounts"
+msgstr "社交媒体账户"
+
+#: qqworld-passport.php:405
+msgid "Third-Party Login"
+msgstr "第三方登录"
+
+#: qqworld-passport.php:469 qqworld-passport.php:470 qqworld-passport.php:492
+#: qqworld-passport.php:494
+msgid "QQWorld Passport"
+msgstr "QQWorld通行证"
+
+#: qqworld-passport.php:491
+#, php-format
+msgid ""
+"Users who have been supporting the QQWorld Passport have been sorry to tell "
+"you that this plugin is no longer updated. Instead, it is the <a href=\"%s\" "
+"target=\"_blank\">QQWorld Operating Officer</a>. The plugin is composed of "
+"QQWorld Passport, QQWorld Synchronizer and QQWorld Mobile. Welcome to use "
+"QQWorld Operating officer, Social login is permanently free."
+msgstr ""
+"一直以来支持QQWorld通行证的用户们，很遗憾地告诉大家，这个插件已经不再更新了，"
+"取而代之的是 <a href=\"%s\" target=\"_blank\">QQWorld运营官</a>，该插件是由"
+"QQWorld通行证、QQWorld同步器和QQWorld移动组成，欢迎大家使用QQWorld运营官，社"
+"交账户登录功能永久免费哦。"
+
+#: qqworld-passport.php:493
+msgid "QQWorld Passport for Wordpress, Many Oauth 2.0 log in methods."
+msgstr "为Wordpress打造的QQWorld通行证，使用更多通过OAuth 2.0快速登录的方法。"
+
+#: qqworld-passport.php:498
+msgid "Extension"
+msgstr "扩展插件"
+
+#: qqworld-passport.php:499
+msgid "Other Products"
+msgstr "其他产品"
+
+#: qqworld-passport.php:500
+msgid "Contact"
+msgstr "联系方式"
+
+#: qqworld-passport.php:510 qqworld-passport.php:519
+msgid "Select All"
+msgstr ""
+
+#: qqworld-passport.php:511 qqworld-passport.php:520 qqworld-passport.php:540
+msgid "Signin Methods"
+msgstr "登录方式"
+
+#: qqworld-passport.php:513 qqworld-passport.php:522
+msgid "Description"
+msgstr "描述"
+
+#: qqworld-passport.php:514 qqworld-passport.php:523 qqworld-passport.php:542
+#: qqworld-passport.php:544 qqworld-passport.php:554 qqworld-passport.php:556
+msgid "Edit"
+msgstr "编辑"
+
+#: qqworld-passport.php:544
+msgid "Edit this item"
+msgstr ""
+
+#: qqworld-passport.php:577
+msgid "Avatar Priority"
+msgstr "头像优先级"
+
+#: qqworld-passport.php:579 qqworld-passport.php:589
+msgid "Enabled"
+msgstr "开启"
+
+#: qqworld-passport.php:582
+msgid ""
+"Default is 9999, if you want QQWorld Password to fully take over the avatar "
+"display address from the other plugins, please set a larger number."
+msgstr ""
+"默认为9999，如果你想让QQWorld通行证从其他插件手里全面接管头像地址的显示，请设"
+"置更大的数值。"
+
+#: qqworld-passport.php:587
+msgid "Automatic Register"
+msgstr "自动注册"
+
+#: qqworld-passport.php:592
+#, php-format
+msgid ""
+"If hasn't binded social media account, then create new account "
+"automatically. and do not forget allowed anyone can register in <a href=\"%s"
+"\" target=\"_blank\">General Settings</a>"
+msgstr ""
+"如果没有绑定社交账户，则自动注册新的账户。并且不要忘记在<a href=\"%s\" "
+"target=\"_blank\">常规选项</a>里允许任何人都可以注册。"
+
+#: qqworld-passport.php:597 qqworld-passport.php:599
+msgid "Documents"
+msgstr "文档"
+
+#: qqworld-passport.php:602
+msgid "How to print avatar image?"
+msgstr "如何输出头像？"
+
+#: qqworld-passport.php:603 qqworld-passport.php:605 qqworld-passport.php:607
+#, php-format
+msgid "Reference: <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr "参考：<a href=\"%s\" target=\"_blank\">%s</a>"
+
+#: qqworld-passport.php:604
+msgid "How to get avatar image URL?"
+msgstr "如何获取头像图片的URL？"
+
+#: qqworld-passport.php:606
+msgid "How to update avatar image URL?"
+msgstr "如何更换头像图片？"
+
+#: qqworld-passport.php:608
+msgid "How to print third-part login list?"
+msgstr "如何输出第三方登录列表？"
+
+#: qqworld-passport.php:616
+msgid "How to print buttons of binding social media account?"
+msgstr "如何调用绑定社交账号的按钮？"
+
+#: qqworld-passport.php:637
+msgid "QQWorld Collector"
+msgstr "QQWorld收藏家"
+
+#: qqworld-passport.php:638
+msgid ""
+"感觉维护网站的工作很繁重吗？本插件将为你节约大量的时间！QQWorld收藏家是一款"
+"Wordpress采集插件，可以采集绝大部分网站，特色是定时批量采集微信公众号和头条"
+"号，抓取微信图片、支持水印，支持阿里云OSS、又拍云、腾讯COS、七牛云存储和百度"
+"BOS，尤其是可以在同步后自动删除本地附件，建立远程云媒体库……"
+msgstr ""
+
+#: qqworld-passport.php:641 qqworld-passport.php:660 qqworld-passport.php:679
+#: qqworld-passport.php:698
+msgid "Author"
+msgstr "作者"
+
+#: qqworld-passport.php:646 qqworld-passport.php:665 qqworld-passport.php:684
+#: qqworld-passport.php:703
+msgid "Company"
+msgstr "公司"
+
+#: qqworld-passport.php:647 qqworld-passport.php:666 qqworld-passport.php:685
+#: qqworld-passport.php:704
+msgid "QQWorld"
+msgstr "阿Q的项目"
+
+#: qqworld-passport.php:656
+msgid "QQWorld Theme Maker"
+msgstr "QQWorld主题制造"
+
+#: qqworld-passport.php:657
+msgid ""
+"众多的设计狮存在一个苦恼，为何自己设计的漂亮的网站必须依靠程序员才能做成成品"
+"上线，作为一个不懂编程的设计狮能否独立完成一个网站的建设呢？答案是肯定的，阿Q"
+"的项目倾力打造的QQWorld主题制造可以实现这一目标。"
+msgstr ""
+
+#: qqworld-passport.php:675
+msgid "QQWorld Woocommerce Assistant"
+msgstr "QQWorld电子商务助手"
+
+#: qqworld-passport.php:676
+msgid ""
+"Woocommerce是一款非常优秀的电子商务插件，不过因为它的西方血统导致其在中国有些"
+"水土不服，本插件基于解决这些问题，为帮助Woocommerce能够更好地为中国地区用户服"
+"务而生。"
+msgstr ""
+
+#: qqworld-passport.php:694
+msgid "QQWorld Checkout"
+msgstr "QQWorld收银台"
+
+#: qqworld-passport.php:695
+msgid ""
+"本插件致力于将手机短信功能和网站结合起来，支持手机号注册，短信找回密码以及适"
+"用于Woocommerce的短信通知客户发货物流信息。"
+msgstr ""
+
+#: qqworld-passport.php:715
+msgid "Recommend"
+msgstr "推荐"
+
+#: qqworld-passport.php:716
+msgid "Purchase"
+msgstr "购买"
+
+#: qqworld-passport.php:734
+msgctxt "contact"
+msgid "Developer"
+msgstr "开发者"
+
+#: qqworld-passport.php:738
+msgid "Official Website"
+msgstr "官方网站"
+
+#: qqworld-passport.php:742
+msgid "Email"
+msgstr "邮件"
+
+#: qqworld-passport.php:747
+#, php-format
+msgid "%s: "
+msgstr "%s："
+
+#: qqworld-passport.php:747
+msgid "QQ Group"
+msgstr "QQ群"
+
+#: qqworld-passport.php:752
+msgid "Please use the WeChat APP to scan the QR code."
+msgstr "请使用微信APP扫描二维码。"
+
+#: qqworld-passport.php:755
+msgid "Cellphone"
+msgstr "手机"
+
+#~ msgid "Help you maintain the site to save a lot of time."
+#~ msgstr "帮你维护网站节省大量的时间。"
+
+#~ msgid "View Details"
+#~ msgstr "浏览详情"
+
+#~ msgid "Support WeChat and Alipay desktop and mobile dual payment function."
+#~ msgstr "支持微信和支付宝的桌面以及移动双支付功能。"
+
+#~ msgid "If you have a Chinese Woocommerce shop, you will like it."
+#~ msgstr "如果你有个中文的Woocommerce网店，你会喜欢的。"
+
+#~ msgctxt "alipay"
+#~ msgid "Partner ID"
+#~ msgstr "合作伙伴身份（PID）"
+
+#~ msgid ""
+#~ "Please enter Partner ID, if you don't have, please <a href=\"%s\" target="
+#~ "\"_blank\">click here</a> to get one."
+#~ msgstr ""
+#~ "请输入合作伙伴身份（PID），如果你没有，请<a href=\"%s\" target=\"_blank\">"
+#~ "点击这里</a>获取。"
+
+#~ msgctxt "alipay"
+#~ msgid "Key"
+#~ msgstr "安全校验码(key)"
+
+#~ msgid "How to get avatar image url?"
+#~ msgstr "如何获取头像图片的URL？"
+
+#~ msgid ""
+#~ "Default is 9999, if you want QQWorld Password to fully take over the "
+#~ "avatar display address from the other plugins, please set a smaller "
+#~ "number."
+#~ msgstr ""
+#~ "默认为9999，如果你想让QQWorld通行证从其他插件手里全面接管头像地址的显示，"
+#~ "请设置更小的数值。"
+
+#~ msgid ""
+#~ "Default is 6, if you want QQWorld Password to fully take over the avatar "
+#~ "display address from the other plugins, please set a larger number."
+#~ msgstr ""
+#~ "默认为6，如果你想让QQWorld通行证从其他插件手里全面接管头像地址的显示，请设"
+#~ "置更大的数值。"
+
+#~ msgid ""
+#~ "Please enter relay server domain, this website will get oauth2 web login "
+#~ "via it."
+#~ msgstr "请输入中继服务器域名，本站将通过其进行oauth2网页登录。"
+
+#~ msgctxt "wechat"
+#~ msgid "Relay Server Domain"
+#~ msgstr "中继服务器域名"
+
+#~ msgid "Native (Need pay 300 RMB to open platform of weixin)"
+#~ msgstr "原生（需要支付300元人民币给微信开放平台）"
+
+#~ msgid "Native (Need pay 300 RMB)"
+#~ msgstr "原生"
+
+#~ msgctxt "wechat"
+#~ msgid "Hide Interface"
+#~ msgstr "隐藏界面"
+
+#~ msgid "You have not binded %s account."
+#~ msgstr "你还没有绑定%s账户。"
+
+#~ msgid "You have binded %1$s account, %2$s."
+#~ msgstr "你已经绑定了%1$s账户，%2$s."
+
+#~ msgctxt "alipay"
+#~ msgid "Confirm"
+#~ msgstr "确认"
+
+#~ msgid "banner-en"
+#~ msgstr "banner-zh-CN"
+
+#~ msgid "Key"
+#~ msgstr "安全校验码(key)"
+
+#~ msgctxt "alipay"
+#~ msgid "Return URL"
+#~ msgstr "回调地址"
+
+#~ msgctxt "taobao"
+#~ msgid "Return URL"
+#~ msgstr "回调地址（URL）"
+
+#~ msgid ""
+#~ "Alipay (China) Network Technology Co., Ltd. is a leading third-party "
+#~ "payment platform, committed to providing \"simple, safe, fast\" payment "
+#~ "solutions. Pay the company from the beginning of 2004, the establishment "
+#~ "has always been to \"trust\" as the core products and services. There"
+#~ msgstr ""
+#~ "支付宝（中国）网络技术有限公司是国内领先的第三方支付平台，致力于提供“简"
+#~ "单、安全、快速”的支付解决方案。支付宝公司从2004年建立开始，始终以“信任”作"
+#~ "为产品和服务的核心。旗下有“支付宝”与“支付宝钱包”两个独立品牌。自2014年第二"
+#~ "季度开始成为当前全球最大的移动支付厂商。"
+
+#~ msgid "QQWorld Passport for Wordpress, Many log in methods by Oauth 2.0."
+#~ msgstr ""
+#~ "QQWorld通行证，用于Wordpress快速登录，拥有许多实用Oauth 2.0授权的登录方"
+#~ "式。"
+
+#~ msgid "Activation Code"
+#~ msgstr "激活码"
+
+#~ msgid "Please enter the Activation Code"
+#~ msgstr "请输入激活码"
+
+#~ msgid "Whoops, Activation code is invalid."
+#~ msgstr "矮油，激活码无效哦。"
+
+#~ msgid ""
+#~ "Your domain is <strong>%s</strong>, please enter the activation code."
+#~ msgstr "你的域名是 <strong>%s</strong>，请输入激活码。"
+
+#~ msgid ""
+#~ "Have no activation code yet? please <a href=\"%s\" target=\"_blank"
+#~ "\">click here</a> to get one."
+#~ msgstr ""
+#~ "没有激活码吗？请 <a href=\"%s\" target=\"_blank\">点击这里</a>获取。"
+
+#~ msgctxt "wechat"
+#~ msgid "Please select shipping address."
+#~ msgstr "请选择送货地址。"
+
+#~ msgid "Successfully published wechat menu."
+#~ msgstr "成功发布微信菜单。"
+
+#~ msgid "Server Configuation"
+#~ msgstr "服务器配置"
+
+#~ msgid "Custom Menu"
+#~ msgstr "自定义菜单"
+
+#~ msgctxt "wechat"
+#~ msgid "URL (Server Address)"
+#~ msgstr "URL（服务器地址）"
+
+#~ msgid ""
+#~ "Please <a href=\"%s\" target=\"_blank\">click here</a> to set URL of "
+#~ "server configuration."
+#~ msgstr ""
+#~ "请 <a href=\"%s\" target=\"_blank\">点击这里</a>设置服务器配置的URL。"
+
+#~ msgctxt "wechat"
+#~ msgid "Token"
+#~ msgstr "令牌（Token）"
+
+#~ msgctxt "wechat"
+#~ msgid "Generate Token"
+#~ msgstr "生成令牌"
+
+#~ msgid ""
+#~ "Must be in English or number, length is 3 to 32 characters. please <a "
+#~ "href=\"%s\" target=\"_blank\">click here</a> to set server configuration."
+#~ msgstr ""
+#~ "必须为英文或数字，长度为3-32字符。请 <a href=\"%s\" target=\"_blank\">点击"
+#~ "这里</a> 设置服务器配置。"
+
+#~ msgid "Menu Name"
+#~ msgstr "菜单名称"
+
+#~ msgid "Submenu Name"
+#~ msgstr "子菜单名称"
+
+#~ msgid "Already added submenu, only can be set menu name."
+#~ msgstr "已添加子菜单，仅可设置菜单名称。"
+
+#~ msgid ""
+#~ "No more than <span id=\"chinese-number\">%d</span> Chinese characters or "
+#~ "<span id=\"letters-number\">%d</span> letters."
+#~ msgstr ""
+#~ "字数不超过<span id=\"chinese-number\">%d</span>个汉字或<span id=\"letters-"
+#~ "number\">%d</span>个字母。"
+
+#~ msgid "Menu Type"
+#~ msgstr "菜单类型"
+
+#~ msgid "The pop-up menu"
+#~ msgstr "弹出子菜单"
+
+#~ msgid "Click to Push Event"
+#~ msgstr "点击推事件"
+
+#~ msgid "Jump URL"
+#~ msgstr "跳转URL"
+
+#~ msgid "Scan QR-Code to Push Event"
+#~ msgstr "扫码推事件"
+
+#~ msgid ""
+#~ "Scan QR-Code to Push Event and pop-up \"Receiving for Message\" Prompt box"
+#~ msgstr "扫码推事件且弹出“消息接收中”提示框"
+
+#~ msgid "Pop-up system camera to photograph and send picture"
+#~ msgstr "弹出系统拍照发图"
+
+#~ msgid "Pop-up camera or photo album to send picture"
+#~ msgstr "弹出拍照或者相册发图"
+
+#~ msgid "Pop-up Wechat photo album"
+#~ msgstr "弹出微信相册发图器"
+
+#~ msgid "Location pop-up selector"
+#~ msgstr "弹出地理位置选择器"
+
+#~ msgid "Send permanent material (Except text news)"
+#~ msgstr "下发消息（除文本消息）"
+
+#~ msgid "Jump Photo News URL"
+#~ msgstr "跳转图文消息URL"
+
+#~ msgid ""
+#~ "After the user clicks the Click type buttons, Wechat server for "
+#~ "developers (Reference Message Interface Guide) for the event structure "
+#~ "via a message interface push message type, and bring the key value "
+#~ "buttons developer filled in, developers can customize key value and user "
+#~ "interaction."
+#~ msgstr ""
+#~ "用户点击click类型按钮后，微信服务器会通过消息接口推送消息类型为event的结构"
+#~ "给开发者（参考消息接口指南），并且带上按钮中开发者填写的key值，开发者可以"
+#~ "通过自定义的key值与用户进行交互。"
+
+#~ msgid ""
+#~ "After the user clicks the View type buttons, the Wechat client will open "
+#~ "a web page URL in the Button fill developer can obtain the user "
+#~ "authorization and web interfaces combined with basic information, access "
+#~ "to basic user information."
+#~ msgstr ""
+#~ "用户点击view类型按钮后，微信客户端将会打开开发者在按钮中填写的网页URL，可"
+#~ "与网页授权获取用户基本信息接口结合，获得用户基本信息。"
+
+#~ msgid "Are you sure to delete this menu and all submenu?"
+#~ msgstr "确定要删除该菜单及其所有子菜单吗？"
+
+#~ msgid "Delete Menu"
+#~ msgstr "删除菜单"
+
+#~ msgid "Delete Submenu"
+#~ msgstr "删除子菜单"
+
+#~ msgid "Save and Publish Wechat Menu"
+#~ msgstr "保存并发布微信菜单"
+
+#~ msgid "Save and Update Wechat Menu"
+#~ msgstr "保存并更新微信菜单"
+
+#~ msgid "Update Wechat Menu"
+#~ msgstr "更新微信菜单"
+
+#~ msgid "Generate Token"
+#~ msgstr "生成Token"
+
+#~ msgid "Delete %s"
+#~ msgstr "删除%s"
+
+#~ msgid "Submenu"
+#~ msgstr "子菜单"
+
+#~ msgid "No more than %d Chinese characters or %d letters."
+#~ msgstr "字数不超过%d个汉字或%d个字母。"
+
+#~ msgid "Submenu Type"
+#~ msgstr "子菜单类型"
+
+#~ msgid ""
+#~ "After the user clicks the click type buttons, Wechat server for "
+#~ "developers (Reference Message Interface Guide) for the event structure "
+#~ "via a message interface push message type, and bring the key value "
+#~ "buttons developer filled in, developers can customize key value and user "
+#~ "interaction."
+#~ msgstr ""
+#~ "用户点击click类型按钮后，微信服务器会通过消息接口推送消息类型为event的结构"
+#~ "给开发者（参考消息接口指南），并且带上按钮中开发者填写的key值，开发者可以"
+#~ "通过自定义的key值与用户进行交互。"
+
+#~ msgid ""
+#~ "After the user clicks the click type buttons, micro-channel server for "
+#~ "developers (Reference Message Interface Guide) for the event structure "
+#~ "via a message interface push message type, and bring the key value "
+#~ "buttons developer filled in, developers can customize key value and user "
+#~ "interaction."
+#~ msgstr ""
+#~ "用户点击click类型按钮后，微信服务器会通过消息接口推送消息类型为event的结构"
+#~ "给开发者（参考消息接口指南），并且带上按钮中开发者填写的key值，开发者可以"
+#~ "通过自定义的key值与用户进行交互。"
+
+#~ msgid "No more than 4 Chinese characters or 8 letters."
+#~ msgstr "字数不超过4个汉字或8个字母。"
+
+#~ msgid "Create Token"
+#~ msgstr "生成"
+
+#~ msgid "You have binded %1$s account, OpenID: <em>%2$s</em>."
+#~ msgstr "已经绑定了%1$s账户，%2$s"
+
+#~ msgid "You have not binded Wechat account."
+#~ msgstr "你还没有绑定微信账号。"
+
+#~ msgid ""
+#~ "Please enter APP ID, if you don't have, please <a href=\"%s\">click here</"
+#~ "a> to get one."
+#~ msgstr ""
+#~ "请输入应用唯一标识（APP ID），如果你没有，请<a href=\"%s\">点击这里</a>获"
+#~ "取。"
+
+#~ msgid "QQ"
+#~ msgstr "腾讯QQ"
+
+#~ msgid "QQWorld Login for Wordpress, Many login method by Oauth 2.0."
+#~ msgstr "QQWorld登录，有使用Oauth 2.0的多种登录方式。"

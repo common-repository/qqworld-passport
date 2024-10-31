@@ -1,0 +1,457 @@
+.wrap {
+	clear: both;
+}
+#qqworld-passport-container #banner {
+	border: 10px solid #fff;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.15);
+	margin-bottom: 10px;
+	max-width: 95%;
+	height: auto;
+}
+a.toplevel_page_qqworld-passport .wp-menu-image:before {
+	content: "\f337";
+}
+
+#qqworld-passport-container .nav-section {
+	display: none;
+}
+
+#qqworld-passport-container th.column-signin-method {
+	width: 100px;
+}
+#qqworld-passport-container th.column-edit {
+	width: 80px;
+}
+
+/* QQWorld Synchronizer & QQWorld mobile */
+#qqworld-mobile-container #banner,
+#qqworld-synchronizer-container #banner {
+	border: 10px solid #fff;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.15);
+	margin-bottom: 10px;
+	max-width: 95%;
+	height: auto;
+}
+
+@keyframes commercial {
+	0% {
+	}
+	50% {
+		box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+	}
+	100% {
+	}
+}
+#qqworld-synchronizer-container #extension-list > li,
+#qqworld-mobile-container #extension-list > li {
+	width: 320px;
+	float: left;
+	margin: 0 20px 20px 0;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.15);
+	position: relative;
+	transform: perspective(600px) rotateY(25deg);
+    perspective-origin: 50% 50%;
+    transform-style: preserve-3d;
+	-webkit-transition: transform .25s, box-shadow .5s, color .25s;
+	-moz-transition: transform .25s, box-shadow .5s, color .25s;
+	-o-transition: transform .25s, box-shadow .5s, color .25s;
+	-ms-transition: transform .25s, box-shadow .5s, color .25s;
+	transition: transform .25s, box-shadow .5s, color .25s;
+}
+	#qqworld-synchronizer-container #extension-list > li:hover,
+	#qqworld-mobile-container #extension-list > li:hover {
+		transform: rotateY(0);
+	}
+#qqworld-synchronizer-container #extension-list > li a.options,
+#qqworld-mobile-container #extension-list > li a.options {
+	position: absolute;
+	right: 10px;
+	top: 150px;
+	color: #fff;
+}
+#qqworld-synchronizer-container #extension-list > li a.options:before,
+#qqworld-mobile-container #extension-list > li a.options:before {
+	font-family: 'dashicons';
+	content: '\f206';
+}
+#qqworld-synchronizer-container #extension-list > li.free,
+#qqworld-mobile-container #extension-list > li.free {
+}
+#qqworld-synchronizer-container #extension-list > li.free:hover,
+#qqworld-mobile-container #extension-list > li.free:hover {
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+#qqworld-synchronizer-container #extension-list > li.commercial,
+#qqworld-mobile-container #extension-list > li.commercial {
+	animation-name: commercial;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	box-shadow: 0 0 1px rgba(255, 0, 0, 0.7);
+}
+#qqworld-synchronizer-container #extension-list li .extension-image,
+#qqworld-mobile-container #extension-list li .extension-image {
+	margin: 0;
+}
+#qqworld-synchronizer-container #extension-list li img,
+#qqworld-mobile-container #extension-list li img {
+	border-bottom: 0;
+	float: left;
+}
+#qqworld-synchronizer-container #extension-list li .extension-label,
+#qqworld-synchronizer-container #extension-list li .extension-description,
+#qqworld-synchronizer-container #extension-list li .extension-options,
+#qqworld-mobile-container #extension-list li .extension-label,
+#qqworld-mobile-container #extension-list li .extension-description,
+#qqworld-mobile-container #extension-list li .extension-options {
+	-webkit-transition: transform .25s, height .25s, color .25s;
+	-moz-transition: transform .25s, height .25s, color .25s;
+	-o-transition: transform .25s, height .25s, color .25s;
+	-ms-transition: transform .25s, height .25s, color .25s;
+	transition: transform .25s, height .25s, color .25s;
+}
+#qqworld-synchronizer-container #extension-list li .extension-label,
+#qqworld-mobile-container #extension-list li .extension-label {
+	margin: 0;
+	padding: 10px;
+	background: #fff;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+}
+#qqworld-synchronizer-container #extension-list li .extension-description,
+#qqworld-mobile-container #extension-list li .extension-description {
+	margin: 0;
+	padding: 10px;
+	background: #f7f7f7;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	color: #666;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+}
+#qqworld-synchronizer-container #extension-list li .extension-options,
+#qqworld-mobile-container #extension-list li .extension-options {
+	background: #fff;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	height: 0;
+	overflow: hidden;
+	transform: perspective(600px) translateZ(30px);
+	border: 1px solid #ddd;
+}
+#qqworld-synchronizer-container #extension-list li:hover .extension-label,
+#qqworld-synchronizer-container #extension-list li:hover .extension-description,
+#qqworld-synchronizer-container #extension-list li:hover .extension-options,
+#qqworld-mobile-container #extension-list li:hover .extension-label,
+#qqworld-mobile-container #extension-list li:hover .extension-description,
+#qqworld-mobile-container #extension-list li:hover .extension-options {
+	transform: perspective(600px) translateZ(0);
+	border: 0;
+}
+#qqworld-synchronizer-container #extension-list li:hover .extension-options,
+#qqworld-mobile-container #extension-list li:hover .extension-options {
+	height: 42px;
+}
+#qqworld-synchronizer-container #extension-list li .extension-options li,
+#qqworld-mobile-container #extension-list li .extension-options li {
+	margin: 0;
+	padding: 5px 10px;
+}
+#qqworld-synchronizer-container #extension-list li .extension-options li input[type="text"],
+#qqworld-mobile-container #extension-list li .extension-options li input[type="text"] {
+	width: 100%;
+	box-sizing: border-box;
+	height: 30px;
+}
+#qqworld-synchronizer-container #extension-list li aside.attr,
+#qqworld-mobile-container #extension-list li aside.attr {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	padding: 5px 10px;
+	background: #fff;
+	border-radius: 5px;
+	background: #f7f7f7;
+}
+#qqworld-synchronizer-container #extension-list li aside.attr.free,
+#qqworld-mobile-container #extension-list li aside.attr.free {
+	
+}
+#qqworld-synchronizer-container #extension-list li aside.attr.pay,
+#qqworld-mobile-container #extension-list li aside.attr.pay {
+	background: #ff0;
+}
+#qqworld-synchronizer-container #extension-list li aside.activate,
+#qqworld-mobile-container #extension-list li aside.activate {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #fff;
+}
+#qqworld-synchronizer-container #extension-list li aside.activated,
+#qqworld-mobile-container #extension-list li aside.activated {
+	background: #74E074;
+}
+
+#qqworld-passport-tabs {
+	height: 40px;
+	margin-top: 35px;
+	border-bottom: 1px solid #aaa;
+	box-shadow: inset 0 -7px 10px rgba(0,0,0,.05);
+}
+#qqworld-passport-tabs li {
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	font-size: 24px;
+	padding: 0 40px;
+	border: 1px solid #aaa;
+	margin: 0 5px;
+	cursor: pointer;
+	border-radius: 5px 5px 0 0;
+	color: #aaa;
+	-webkit-transition: width .25s, height .25s, background .25s, color .25s, box-shadow .25s;
+	-moz-transition: width .25s, height .25s, background .25s, color .25s, box-shadow .25s;
+	-o-transition: width .25s, height .25s, background .25s, color .25s, box-shadow .25s;
+	-ms-transition: width .25s, height .25s, background .25s, color .25s, box-shadow .25s;
+	transition: width .25s, height .25s, background .25s, color .25s, box-shadow .25s;
+}
+#qqworld-passport-tabs li:hover {
+	color: #666;
+	background: #fff;
+	box-shadow: inset 0 -7px 10px rgba(0,0,0,.05);
+}
+#qqworld-passport-tabs li.current {
+	color: #333;
+	position: relative;
+	top: 1px;
+	height: 43px;
+	line-height: 40px;
+	border-bottom: none;
+	background: #f1f1f1;
+	box-shadow: none;
+}
+
+@media screen and ( max-width: 1320px ) {
+	#qqworld-passport-tabs li {
+		font-size: 24px;
+		padding: 0 26px;
+	}
+}
+@media screen and ( max-width: 1132px ) {
+	#qqworld-passport-tabs li {
+		font-size: 20px;
+		padding: 0 22px;
+	}
+}
+@media screen and ( max-width: 1000px ) {
+	#banner {
+		height: auto;
+	}
+	#qqworld-passport-tabs li {
+		font-size: 18px;
+		padding: 0 18px;
+	}
+}
+@media screen and ( max-width: 728px ) {
+	#qqworld-passport-tabs li {
+		font-size: 14px;
+		padding: 0 10px;
+		margin: 0 3px;
+	}
+}
+@media screen and ( max-width: 640px ) {
+	#qqworld-passport-tabs li {
+		font-size: 12px;
+		padding: 0 8px;
+		margin: 0 2px;
+	}
+}
+
+.tab-content.hidden {
+	display: none;
+}
+
+
+#qqworld-passport-container .qqworld-product-list {
+	padding: 10px 0;
+}
+#qqworld-passport-container .qqworld-product-list:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#qqworld-passport-container .qqworld-product-list li {
+	float: left;
+	position: relative;
+	width: 250px;
+	filter: drop-shadow(1px 1px 5px rgba(0,0,0,.15));
+	box-sizing: border-box;
+	margin: 20px;
+	border-bottom: 2px solid #0073aa;
+	transition: filter .5s;
+	z-index: 1;
+}
+#qqworld-passport-container .qqworld-product-list li:hover {
+	filter: drop-shadow(1px 1px 10px rgba(0,0,0,.25));
+	z-index: 2;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo {
+	position: relative;
+	margin: 0;
+}
+#qqworld-passport-container .qqworld-product-list li:hover figure.photo a:after {
+	opacity: 1;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo a:after {
+	opacity: 0;
+	font-family: dashicons;
+	content: '\f312';
+	font-size: 28px;
+	color: rgba(255,255,255,.75);
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border: 3px solid rgba(255,255,255,.75);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.15);
+	transition: all .3s;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo a:hover:after {
+	font-size: 32px;
+	color: #fff;
+	background: #fc0;
+	width: 58px;
+	height: 58px;
+	line-height: 58px;
+	border: 0 solid #fc0;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo a {
+	overflow: hidden;
+	display: block;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo img {
+	width: 100%;
+	height: auto;
+	float: left;
+	transform: scale(1, 1);
+	transition: transform .5s, filter .5s;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo:hover img {
+	transform: scale(1.1, 1.1);
+	filter: blur(3px);
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo .recommend {
+	background: #fc0;
+	display: block;
+	position: absolute;
+	left: -10px;
+	bottom: 0;
+	z-index: 1;
+	padding: 5px 15px;
+	text-shadow: 1px 1px 2px rgba(255,255,255,.85);
+	transition: opacity .5s;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo .recommend:before {
+	font-family: dashicons;
+	content: '\f529';
+	margin-right: 5px;
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo .recommend:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 0;
+	border-color: transparent #333 transparent transparent; 
+}
+#qqworld-passport-container .qqworld-product-list li figure.photo:hover .recommend {
+	opacity: 0;
+}
+#qqworld-passport-container .qqworld-product-list li h3 {
+	margin: 0;
+	padding: 10px;
+	font-weight: 500;
+	background: #fff;
+}
+#qqworld-passport-container .qqworld-product-list li h3:before {
+	font-family: dashicons;
+	content: '\f106';
+	margin-right: 5px;
+	color: #ccc;
+}
+#qqworld-passport-container .qqworld-product-list li p.description {
+	background: #f7f7f7;
+	margin: 0;
+	padding: 10px;
+	text-align: justify;
+}
+#qqworld-passport-container .qqworld-product-list li p.metas {
+	font-size: 12px;
+	margin: 0;
+	height: 0;
+	line-height: 39px;
+	padding: 0 10px;
+	background: #dcdcdc;
+	text-shadow: 1px 1px 1px #fff;
+	float: left;
+    width: 100%;
+    box-sizing: border-box;
+	transition: height .5s cubic-bezier(0.175,0.885,0.320,1.275);
+	overflow: hidden;
+}
+#qqworld-passport-container .qqworld-product-list li:hover p.metas {
+	height: 39px;
+}
+
+#qqworld-passport-container .qqworld-product-list li p.metas span:before {
+	font-family: dashicons;
+	margin-right: 5px;
+}
+#qqworld-passport-container .qqworld-product-list li p.metas .author {
+	float: left;
+}
+#qqworld-passport-container .qqworld-product-list li p.metas .author:before {
+	content: '\f110';
+}
+#qqworld-passport-container .qqworld-product-list li p.metas .company {
+	float: right;
+}
+#qqworld-passport-container .qqworld-product-list li p.metas .company:before {
+	content: '\f102';
+}
+
+#contact-table .contact-qrcode {
+	border: 5px solid #fff;
+	width: 150px;
+	height: auto;
+	transition: width .5s;
+}
+#contact-table .contact-qrcode:hover {
+	width: 250px;
+}
